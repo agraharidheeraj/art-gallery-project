@@ -162,20 +162,13 @@ body {
  
 
   .footer {
-    gap: 7rem;
+    gap: 4rem;
     width: 100%;
   }
-
-  .footer img {
-    width: 110.05px;
-    height: 40px;
-    flex-shrink: 0;
-  }
-  .footer .icon-footer {
-    width: 100px;
-    height: 20px;
-    flex-shrink: 0;
-  }
+.footer-frame-soacial{
+  margin-top: 0.5rem;
+  margin-left: 2rem;
+}
 
   .footer p {
     width: 281px;
