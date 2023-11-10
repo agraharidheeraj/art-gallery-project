@@ -1,0 +1,532 @@
+/* Reset default margin, padding, and box-sizing */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Enable smooth scrolling behavior for the entire page */
+html {
+  scroll-behavior: smooth;
+}
+
+li{
+  list-style: none;
+}
+/* Main container styles */
+.container {
+  width: 1439px;
+  height: 2554px;
+  position: relative;
+  overflow: hidden;
+}
+
+.rectangle-parent {
+  margin-bottom: 25rem;
+}
+
+/* Styles for the main rectangle parent */
+.recatngle-black-background {
+  width: 450px;
+  height: 800px;
+  flex-shrink: 0;
+  position: absolute;
+  top: 0;
+  background: var(--almost-black);
+}
+
+/* Styles for the large image within the rectangle parent */
+.rectangle-img {
+  width: 540px;
+  height: 800px;
+  flex-shrink: 0;
+  position: absolute;
+  left: 28rem;
+  object-fit: cover;
+  overflow: hidden;
+  top: 0;
+  bottom: 0;
+}
+
+/* Styles for the "MODERN ART GALLERY" text */
+.modern-text {
+  margin: 0;
+  position: relative;
+  top: 11rem;
+  left: 10rem;
+  color: var(--color-white);
+  font-family: var(--heading-m);
+  font-size: var(--heading-xl-size);
+  font-style: normal;
+  font-weight: 900;
+  text-transform: uppercase;
+  line-height: 5.5rem;
+  mix-blend-mode: difference;
+}
+
+/* Styles for the gallery subheading */
+.modern-gallery-subheading {
+  width: 350px;
+  color: var(--dark-grey);
+  font-family: var(--body-m);
+  font-size: var(--body-m-size);
+  font-style: normal;
+  font-weight: 300;
+  line-height: 32px;
+  position: relative;
+  left: 57.7rem;
+}
+
+
+
+ .btn-arrow {
+  margin-top: 5rem;
+  position: relative;
+  left: 58rem;
+  transition: 0.5s ease;
+}
+
+.btn-arrow:hover{
+  content: url(./image/our_location_button_hover.svg);
+}
+
+/* Styles for the flex container within the frame */
+.frame-flex {
+  display: flex;
+  justify-content: center;
+  padding: 10rem;
+}
+
+/* Styles for an image within the frame container */
+.rectangle-img-1 {
+  width: 635px;
+  height: 400px;
+  flex-shrink: 0;
+  margin-left: 7.7rem;
+}
+
+/* Styles for the frame heading */
+.frame-heading {
+  color: var(--almost-black);
+  font-family: var(--heading-m);
+  font-size: var(--heading-m-size);
+  font-style: normal;
+  font-weight: 900;
+  line-height: 60px;
+  width: 350px;
+  text-transform: uppercase;
+  margin-bottom: 2rem;
+  margin-top: 3rem;
+}
+
+/* Styles for the frame subheading */
+.frame-subheading {
+  width: 350px;
+  color: var(--dark-grey);
+  font-feature-settings: "clig" off, "liga" off;
+  font-family: Outfit;
+  font-size: var(--body-m-size);
+  font-style: normal;
+  font-weight: 300;
+  line-height: 32px;
+}
+
+/* Styles for the rectangle-gallery-3-parent */
+.rectangle-gallery-3-parent {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  margin-right: 7rem;
+  margin-top: -8rem;
+}
+
+/* Styles for an image within the rectangle-gallery-3-parent */
+.rectangle-img-3 {
+  width: 635px;
+  height: 720px;
+  flex-shrink: 0;
+  margin-left: 6rem;
+}
+
+/* Styles for another image within the rectangle-gallery-3-parent */
+.rectangle-img-4 {
+  width: 445px;
+  height: 313px;
+  flex-shrink: 0;
+}
+
+/* Styles for a black rectangle within the rectangle-gallery-3-parent */
+.rectangle-black-img {
+  width: 445px;
+  height: 377px;
+  flex-shrink: 0;
+  background: var(--almost-black);
+  position: relative;
+  margin-top: 1.7rem;
+}
+
+/* Styles for the content within the black rectangle */
+.gallery-frame-2-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+}
+
+/* Styles for the heading within the content */
+.gallery-frame-2-heading {
+  width: 350px;
+  color: var(--White, #fff);
+  font-family: var(--heading-m);
+  font-size: 60px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: var(--heading-m-size);
+  text-transform: uppercase;
+  position: relative;
+  top: 3rem;
+  left: 0.1rem;
+}
+
+/* Styles for the subheading within the content */
+.gallery-frame-2-subheading {
+  width: 350px;
+  color: var(--color-white);
+  font-family: Outfit;
+  font-size: var(--body-m-size);
+  font-style: normal;
+  font-weight: 300;
+  line-height: 32px;
+  position: relative;
+  bottom: -3rem;
+}
+
+/* Styles for the footer frame */
+.footer-frame {
+  width: 100%;
+  height: 244px;
+  background-color: var(--almost-black);
+  position: absolute;
+  bottom: 0;
+  flex-shrink: 0;
+}
+.footer-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30rem;
+  margin-top: 5rem;
+}
+/* Styles for the content within the footer frame */
+.footer-frame-content {
+  display: flex;
+  gap: 5rem;
+}
+
+/* Styles for the subheading within the footer frame content */
+.footer-frame-subheading {
+  width: 430px;
+  flex-shrink: 0;
+  color: var(--color-white);
+  font-family: Outfit;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 28px;
+  position: relative;
+  left: 10rem;
+}
+
+/* Styles for social media icons in the footer */
+.footer-frame-soacial {
+  margin-top: -2rem;
+  display: flex;
+  gap: 2rem;
+  transition: 0.5s ease all;
+  cursor: pointer;
+}
+.fa-brands{
+  color: #f2f2f2;
+  transition: 0.4s ease;
+  font-size: 1.5rem;
+}
+.fa-brands:hover{
+  color: var(--gold) ;
+}
+/* Tablet CSS */
+@media screen and (max-width: 768px) {
+  .container {
+    width: 768px;
+    height: 100%;
+    overflow: hidden;
+  }
+  .recatngle-black-background {
+    display: none;
+  }
+
+  /* Reduce the width of the images within .frame-container */
+  .rectangle-img {
+    width: 437px;
+    height: 700px;
+    left: 0;
+  }
+
+  .modern-gallery-heading {
+    position: relative;
+    z-index: 10;
+    left: 14.3rem;
+    top: -2rem;
+  }
+
+  .modern-text {
+    color: black;
+    font-size: 70px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 65px; 
+  }
+
+  .modern-gallery-subheading {
+    width: 339px;
+    position: relative;
+    left: 25rem;
+    top: 12rem;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 28px;
+  }
+  
+  .btn-arrow{
+    margin-top: 15rem;
+    position: absolute;
+    left: 25rem;
+  }
+  .frame-flex {
+    margin-left: -10rem;
+  }
+
+  .frame-heading {
+    width: 223px;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 45px;
+    padding: 0;
+  }
+
+  .frame-subheading {
+    width: 223px;
+    height: 140px;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 28px;
+  }
+
+  .rectangle-img-1 {
+    width: 398px;
+    height: 400px;
+    margin-left: -4rem;
+    margin-right: 0;
+    position: relative;
+    left: 9.3rem;
+  }
+  /* Reduce the width of the images within .rectangle-gallery-3-parent */
+  .rectangle-img-3 {
+    width: 398px;
+    height: 720px;
+    position: relative;
+    top: -0.8rem;
+  }
+
+  .rectangle-img-4 {
+    width: 280px;
+    height: 313px;
+    margin-left: -0.1rem;
+    margin-top: -1.8rem;
+  }
+
+  .rectangle-black-img {
+    width: 280px;
+    height: 396px;
+    margin-top: 8px;
+  }
+  .rectangle-gallery-3-parent {
+    gap: 1.5rem;
+  }
+
+  .gallery-frame-2-heading {
+    width: 223px;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 45px;
+  }
+
+  .gallery-frame-2-subheading {
+    width: 223px;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 28px;
+  }
+  .footer-frame {
+    position: relative;
+    margin-top: 5rem;
+  }
+  .footer-content {
+    width: 100%;
+  }
+  .footer-frame-subheading {
+    width: 280px;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 26px;
+    margin-top: 3rem;
+    margin-left: -10rem;
+  }
+  .footer-frame-content {
+    width: 100px;
+  }
+}
+
+/* Mobile CSS */
+@media screen and (max-width: 486px), screen and (max-width: 376px){
+  .container {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 120px;
+    overflow: hidden;
+  }
+  .rectangle-parent {
+    display: flex;
+    margin-top: 9rem;
+  }
+  .rectangle-img {
+    width: 100%;
+    height: 240px;
+  }
+
+  .modern-gallery-heading {
+    width: 343px;
+    margin-left: -10rem;
+    margin-top: -1rem;
+  }
+  .modern-text {
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 55px;
+  }
+  .modern-gallery-subheading {
+    position: relative;
+    width: 343px;
+    left: 3rem;
+    top: 17rem;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 28px;
+  }
+  .btn-arrow{
+    margin-top: 28rem;
+    position: relative;
+    left: -18.5rem;
+    margin-bottom: -25rem;
+  }
+  .frame-flex {
+    display: flex;
+    flex-direction: column;
+  }
+  .rectangle-img-1 {
+    width: 343px;
+    height: 320px;
+    flex-shrink: 0;
+    position: relative;
+    top: -12rem;
+    margin-left: -4rem;
+  }
+  .frame-parent {
+    position: relative;
+    top: 10rem;
+    left: 5rem;
+    margin-bottom: -20rem;
+  }
+  .frame-heading {
+    width: 343px;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 900;
+  }
+
+  .frame-subheading {
+    width: 343px;
+    font-size: 18px;
+    margin-bottom: 3rem;
+  }
+
+  .rectangle-gallery-3-parent {
+    display: flex;
+    flex-direction: column;
+  }
+  .rectangle-img-3 {
+    width: 343px;
+    height: 480px;
+    left: 0.5rem;
+  }
+  .rectangle-img-4 {
+    width: 343px;
+    height: 200px;
+    margin-left: 7.2rem;
+  }
+  .rectangle-black-img {
+    width: 343px;
+    height: 293px;
+    margin-left: 7.2rem;
+  }
+  .gallery-frame-2-heading {
+    width: 295px;
+    font-size: 50px;
+  }
+  .gallery-frame-2-subheading {
+    width: 295px;
+    font-size: 18px;
+  }
+
+  .footer-frame {
+    width: 100;
+    height: 336px;
+    margin-top: 1rem;
+    padding: 0;
+  }
+  .footer-content {
+    display: flex;
+    flex-direction: column;
+  }
+  .modernartgallery-icon {
+    width: 110.05px;
+    height: 40px;
+    margin-left: -6rem;
+    margin-top: -2rem;
+  }
+  .footer-frame-subheading {
+    width: 311px;
+    font-size: 16px;
+    margin-left: -22rem;
+  }
+  .footer-frame-soacial {
+    width: 100px;
+    height: 20px;
+    position: relative;
+    top: -25rem;
+    left: -6rem;
+  }
+}
