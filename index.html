@@ -1,12 +1,11 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="initial-scale=1, width=device-width" />
-
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Black Background with Image and Paragraph</title>
     <link rel="stylesheet" href="./global.css" />
-    <link rel="stylesheet" href="./index.css" />
-    <link rel="stylesheet" href="./new.css" />
+    <link rel="stylesheet" href="./style.css" />
     <link
       rel="stylesheet"
       href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@800;900&display=swap"
@@ -18,82 +17,70 @@
   </head>
   <body>
     <div class="container">
-      <main class="rectangle-parent">
-        <div class="recatngle-black-background"></div>
-        <img class="rectangle-img" alt="" src="./image/rectangle@2x.png" />
+      <!-- Hero container -->
+      <section class="hero-container">
+        <div class="black-background"></div>
 
-        <div class="modern-gallery-heading">
-          <p class="modern-text">MODERN</p>
-          <p class="modern-text">ART GALLERY</p>
+        <div class="image-container">
+          <img src="./image/rectangle@2x.png" alt="Your Image" />
         </div>
-        <div class="modern-gallery-subheading">
-          The arts in the collection of the Modern Art Gallery all started from
-          a spark of inspiration. Will these pieces inspire you? Visit us and
-          find out.
-        </div>
-
-        <div>
-          <a href="./location.html">
-            <img class="btn-arrow" src="./image/Our_location_button.svg" alt="" />
-          </a>
-        </div>
-      </main>
-
-      <div class="frame-flex">
-        <div class="frame-parent">
-          <div class="frame-heading">Your Day at the Gallery</div>
-          <div class="frame-subheading">
-            Wander through our distinct collections and find new insights about
-            our artists. Dive into the details of their creative process.
+        <div class="hero-heading">
+          <div class="heading">
+                <h1>MODERN</h1>
+          <h1>ART GALLERY</h1>
+          </div>
+          <div class="hero-para">
+            <p>
+              The arts in the collection of the Modern Art Gallery all started
+              from a spark of inspiration. Will these pieces inspire you? Visit
+              us and find out.
+            </p>
+            <a href="./location.html">
+            <img src="./image/Our_location_button.svg" alt="" />
+            </a>
           </div>
         </div>
-        <img class="rectangle-img-1" alt="" src="./image/rectangle1@2x.png" />
-      </div>
+      </section>
 
-      <div class="rectangle-gallery-3-parent">
-        <img
-          class="rectangle-img-3"
-          alt=""
-          src="./image/rectangle-copy-2@2x.png"
-        />
-        <div class="gallery-frame-2">
-          <img
-            class="rectangle-img-4"
-            alt=""
-            src="./image/rectangle-copy-4@2x.png"
-          />
-          <div class="rectangle-black-img">
-            <div class="gallery-frame-2-content">
-              <h1 class="gallery-frame-2-heading">COME & BE INSPIRED</h1>
-              <p class="gallery-frame-2-subheading">
-                We’re excited to welcome you to our gallery and see how our
-                collections influence you.
-              </p>
-            </div>
+      <section>
+        <div class="gallery-content">
+          <div class="gallery-heading">
+            <h2 class="title">Your Day at the Gallery</h2>
+            <p class="description">
+              Wander through our distinct collections and find new insights
+              about our artists. Dive into the details of their creative
+              process.
+            </p>
+          </div>
+          <img class="rectangle-img-1" alt="" src="./image/rectangle1@2x.png" />
+        </div>
+
+        <div class="gallery-content-2">
+          <img class="img-1" src="./image/rectangle-copy-2@2x.png" alt="">
+          <div class="gallery-content-2-right">
+            <img class="img-2" src="./image/rectangle-copy-4@2x.png" alt="">
+
+             <div class="black-background-2">
+              <h1>COME & BE INSPIRED</h1>
+              <p>We’re excited to welcome you to our gallery and see how our collections influence you.</p>
+             </div>
+
           </div>
         </div>
-      </div>
+      </section>
 
-      <div class="footer-frame">
-        <div class="footer-content">
-          <div class="footer-frame-content">
-            <img
-              class="modernartgallery-icon"
-              alt=""
-              src="./image/modernartgallery.svg"
-            />
-            <div class="footer-frame-subheading">
-              The Modern Art Gallery is free to all visitors and open seven days
-              a week from 8am to 9pm. Find us at 99 King Street, Newport, USA.
-            </div>
+      <footer>
+        <div class="footer-container">
+          <img src="./image/modernartgallery.svg" alt="">
+          <p>The Modern Art Gallery is free to all visitors and open seven days a week from 8am to 9pm. Find us at 99 King Street, Newport, USA.</p>
+          <div class="social-icons">
+              <i class="fa-brands fa-facebook" ></i>
+              <i class="fa-brands fa-instagram" ></i>
+              <i class="fa-brands fa-twitter" ></i>
           </div>
-          <ul class="footer-frame-soacial ">
-            <i class="fa-brands fa-facebook" ></i>
-            <i class="fa-brands fa-instagram" ></i>
-            <i class="fa-brands fa-twitter" ></i>
-          </ul>
         </div>
-      </div>
+      </footer>
+      
     </div>
     <script src="https://kit.fontawesome.com/ce1cba47b6.js" crossorigin="anonymous"></script>
   </body>

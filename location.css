@@ -29,16 +29,14 @@ body {
   position: absolute;
 }
 
-.btn-arrow:hover{
+.btn-arrow:hover {
   content: url(./image/back_to_home_hover.svg);
 }
-
 .black-box {
   background-color: #000;
   width: 100%;
   height: 436px;
 }
-
 .row {
   display: flex;
   flex-wrap: wrap;
@@ -128,11 +126,11 @@ body {
   transition: 0.5s ease all;
   cursor: pointer;
 }
-.fa-brands{
+.fa-brands {
   transition: 0.4s ease;
   font-size: 1.5rem;
 }
-.fa-brands:hover{
+.fa-brands:hover {
   color: white;
 }
 /* Responsive styles for tablets */
@@ -143,32 +141,31 @@ body {
     overflow: hidden;
   }
 
-  .btn-arrow{
+  .btn-arrow {
     margin-top: 0rem;
     margin-left: 3rem;
   }
-  
-  .text-box h2{
+
+  .text-box h2 {
     width: 223px;
     font-size: 55px;
     margin-left: 3rem;
   }
-  .text-paragraph{
+  .text-paragraph {
     width: 398px;
     font-size: 18px;
     margin-left: -5rem;
     margin-right: 2rem;
   }
- 
 
   .footer {
     gap: 4.2rem;
     width: 100%;
   }
-.footer-frame-soacial{
-  margin-top: 0.5rem;
-  margin-left: 2rem;
-}
+  .footer-frame-soacial {
+    margin-top: 0.5rem;
+    margin-left: 2rem;
+  }
 
   .footer p {
     width: 281px;
@@ -177,74 +174,70 @@ body {
 }
 
 /* Responsive styles for mobile */
-@media (max-width: 732px) 
-{   
-  .container{
-    width: 100%;
-  }
-   
-  .main-image{
+@media (max-width: 732px) {
+  .container {
     width: 100%;
   }
 
-  .btn-arrow{
+  .main-image {
+    width: 100%;
+  }
+
+  .btn-arrow {
     margin-top: 0rem;
     margin-left: 0rem;
-   
   }
-  .row{
+  .row {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-
-
   }
-  .black-box{
+  .black-box {
     height: 493px;
   }
-  .text-box h2{
+  .text-box h2 {
     width: 343px;
     font-size: 50px;
     margin-top: 2rem;
     margin-left: 2rem;
   }
-  .text-paragraph h2{
+  .text-paragraph h2 {
     width: 343px;
     font-size: 32px;
     margin-top: -5rem;
     margin-left: 7rem;
   }
-  .text-paragraph p{
+  .text-paragraph p {
     width: 343px;
     font-size: 18px;
     margin-left: 7rem;
   }
 
-  .footer{
+  .footer {
     height: 336px;
     display: flex;
     flex-direction: column;
     gap: 2rem;
     align-items: flex-start;
   }
-  .footer p,img{
+  .footer p,
+  img {
     margin-left: 2rem;
   }
-  .footer p{
+  .footer p {
     width: 311px;
   }
 }
 
 @media (max-width: 375px) {
-
-  .container{
+  .container {
     width: 400px;
     height: 100%;
   }
-  .footer{
+  .footer {
     width: 400px;
   }
-  .black-box{
+  .black-box {
     width: 400px;
   }
 }
