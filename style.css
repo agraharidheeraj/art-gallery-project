@@ -319,6 +319,7 @@
   .gallery-content-2 {
     padding: 1rem;
     flex-direction: column;
+    margin-bottom: -4rem;
   }
   .gallery-heading .title {
     width: 90%;
